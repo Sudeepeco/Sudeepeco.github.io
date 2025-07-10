@@ -1,50 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sudeep Eco Solutions</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #e6f7f0;
       margin: 0;
       padding: 0;
-      text-align: center;
     }
     header {
-      background-color: #008060;
+      background-color: #4CAF50;
       color: white;
-      padding: 20px 0;
+      padding: 1rem;
+      text-align: center;
     }
-    h1 {
-      margin: 0;
+    nav {
+      background-color: #333;
+      overflow: hidden;
     }
-    p {
-      color: #333;
-      font-size: 18px;
-      margin-top: 20px;
+    nav a {
+      float: left;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      display: block;
     }
-    footer {
-      margin-top: 40px;
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      padding: 20px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
       padding: 10px;
-      background: #ddd;
-      font-size: 14px;
+      margin: 6px 0;
+      box-sizing: border-box;
+    }
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #45a049;
+    }
+    .info-box {
+      background: #f0f0f0;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Welcome to Sudeep Eco Solutions</h1>
-  </header>
+<header>
+  <h1>Welcome to Sudeep Eco Solutions</h1>
+</header>
 
-  <p>♻️ We help people recycle plastic and earn rewards while saving the planet.</p>
-  <p>📦 Sell plastic | 🏭 Connect with recycling companies | 💰 Earn money</p>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <footer>
-    © 2025 Sudeep Eco Solutions | Built with ❤️
-  </footer>
+<section id="home">
+  <h2>Home</h2>
+  <p>This is my plastic recycling startup website.</p>
+  <p>We help people recycle plastic and earn rewards while saving the planet.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><strong>Sudeep Eco Solutions</strong> is based in <b>India</b>. We connect people who want to sell plastic waste with trusted recycling companies.</p>
+  <p>We aim to reduce pollution and help citizens earn from recycling. Let's build a cleaner future together!</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="https://formsubmit.co/sudeepsudeep808080@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required placeholder="Your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required placeholder="Your email">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="info-box">
+    <p>📧 Email: <a href="mailto:sudeepsudeep808080@gmail.com">sudeepsudeep808080@gmail.com</a></p>
+    <p>📞 Phone: <a href="tel:+919632763054">9632763054</a></p>
+    <p>📍 Location: India</p>
+  </div>
+</section>
 
 </body>
 </html>
