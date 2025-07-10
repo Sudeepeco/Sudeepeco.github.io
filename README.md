@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,33 +7,34 @@
   <title>Sudeep Eco Solutions</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      background-color: #eaf7ec;
       text-align: center;
-      padding: 60px;
+      padding: 50px;
     }
     h1 {
-      color: #1e90ff;
+      color: #2b9348;
     }
     p {
       font-size: 18px;
       color: #333;
     }
     .button {
-      padding: 12px 20px;
       margin-top: 20px;
-      background-color: #28a745;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #0077cc;
       color: white;
       border: none;
-      border-radius: 6px;
-      font-size: 16px;
+      border-radius: 5px;
       text-decoration: none;
     }
   </style>
 </head>
 <body>
   <h1>Welcome to Sudeep Eco Solutions</h1>
-  <p>Recycle plastic, earn rewards, and save the planet 🌍</p>
+  <p>This is my plastic recycling startup website.</p>
+  <p>We help people recycle plastic and earn rewards while saving the planet.</p>
   <a href="#" class="button">Get Started</a>
 </body>
 </html>
