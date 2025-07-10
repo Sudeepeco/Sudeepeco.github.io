@@ -7,33 +7,44 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #eaf7ec;
+      background: #e6f7f0;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 50px;
+    }
+    header {
+      background-color: #008060;
+      color: white;
+      padding: 20px 0;
     }
     h1 {
-      color: #2b9348;
+      margin: 0;
     }
     p {
-      font-size: 18px;
       color: #333;
-    }
-    .button {
+      font-size: 18px;
       margin-top: 20px;
-      padding: 12px 24px;
-      font-size: 16px;
-      background-color: #0077cc;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background: #ddd;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Sudeep Eco Solutions</h1>
-  <p>This is my plastic recycling startup website.</p>
-  <p>We help people recycle plastic and earn rewards while saving the planet.</p>
-  <a href="#" class="button">Get Started</a>
+
+  <header>
+    <h1>Welcome to Sudeep Eco Solutions</h1>
+  </header>
+
+  <p>♻️ We help people recycle plastic and earn rewards while saving the planet.</p>
+  <p>📦 Sell plastic | 🏭 Connect with recycling companies | 💰 Earn money</p>
+
+  <footer>
+    © 2025 Sudeep Eco Solutions | Built with ❤️
+  </footer>
+
 </body>
 </html>
